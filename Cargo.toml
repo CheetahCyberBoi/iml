@@ -1,0 +1,9 @@
+[package]
+name = "iml"
+version = "0.1.0"
+edition = "2021"
+description = "ilo pi musi leko - chess engine in Rust"
+
+[dependencies]
+bitflags = "2.9.1"
+strum = { version = "0.27.1", features = ["derive"] }
